@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='predict.css') }}" >
+</head>
+<body>
+    <!-- <h1 class="title">
+        Br<span class="title-span">ee</span>zo
+    </h1> -->
+
+    <div class="header">
+        <h1 class="title">
+            Br<span class="title-span">ee</span>zo
+        </h1>
+        <!-- <button class="btn" onclick="back()">Back</button> -->
+    </div>
+
+    <div class="result">
+        {% if weather %}
+            <!-- <h2 class="pred-class">{{ weather.summary }}</h2> -->
+            <h2 class="pred-class">{{ city }} Weather :<br>{{ weather.summary }}</h2>
+            <ul class="pred-list">
+                {% for key, value in weather.details.items() %}
+                    <li><strong>{{ key }}:</strong> {{ value }}</li>
+                {% endfor %}
+            </ul>
+         {% endif %}
+    </div>
+
+    <form action="/predict" method="post">
+        <input class="input" type="text" name="city" name="city" placeholder="Enter City Name" required>
+    </form>
+
+    
+    {% if error %}
+        <p class="error" style="color:red;">{{ error }}</p>
+    {% endif %}
+
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" >
+</head>
+<body>
+    <header>
+        <h1 class="title">Br<span class="title-span">ee</span>zo</h1>
+        <p class="title-p">Feel the <span class="span-title-p">breeze</span>, know the tease!</p>
+    </header>
+
+    <section class="text-container">
+        <h1 class="left-text">
+            Catch the mood of the sky. Live the vibe, feel the forecast. Your stylish weather companion
+        </h1>
+    </section>
+
+    <form method="get" action="/Prediction" >
+        <input class="btn" type="submit" value="Let's Get Started">
+    </form>
+
+
+</body>
+</html>

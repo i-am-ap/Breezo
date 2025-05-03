@@ -73,14 +73,6 @@ Prediction:
 ![image](https://github.com/user-attachments/assets/f2d3ce64-518c-418f-b54f-504eb2335cbf)
 
 
-## 🌍 Live Demo
-
-*(Optional: Add link if hosted on Heroku, Render, or any other platform)*
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
 
 > **Made with ❤️ by Aryan Palaspagar**

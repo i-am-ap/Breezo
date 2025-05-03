@@ -22,7 +22,7 @@ A simple and responsive web application that displays real-time weather data for
    ```bash
    git clone https://github.com/yourusername/weather-prediction-app.git
    cd weather-prediction-app
-````
+
 
 2. **Install dependencies**:
    *(Assuming you're using Flask)*

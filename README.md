@@ -3,6 +3,9 @@
 
 A simple and responsive web application that displays real-time weather data for any city using the **OpenWeather "Current Weather Data" API**.
 
+## App Live at
+https://breezo.onrender.com/
+
 ## 🔧 Tech Stack
 
 - **Frontend**: HTML, CSS  

@@ -87,3 +87,27 @@ form{
     font-weight: 600;
     font-size:22px;
 }
+
+@media screen and (max-width: 400px) {
+    .input{
+        width: 80%;
+        position: fixed;
+        bottom: 40px;
+    }
+
+    .result{
+        margin-left: 5%;
+        margin-top: 50px;
+        margin-right: 5%;
+    }
+
+    .pred-class{
+        font-size: 30px;
+    }
+
+    .pred-list{
+        font-size: 16px;
+        gap: 70px;
+    }
+    
+}

@@ -3,7 +3,7 @@
 
 *{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 0;
     margin: 0 auto;
 }
 
@@ -23,7 +23,10 @@ body {
 }
 
   .left-text {
-    position: relative;
+    /* position: relative; */
+    text-align:end;
+    padding: 20px;
+    margin-top: 50px;
     z-index: 1;
     font-size: 55px;
     font-family: 'Poppins', sans-serif;
@@ -61,7 +64,7 @@ section{
     /* background-color: antiquewhite; */
     margin-right:0px ;
     border-radius: 20px;
-    height: 60vh;
+    height: 40vh;
     margin-top: 50px;
 }
 
@@ -74,11 +77,12 @@ section{
     padding-right: 25px;
     color: #b5b5b5;
     cursor: pointer;
-    /* margin-left: 50%; */
+    margin-left: 70%;
     margin-top: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: "Poppins", sans-serif;
     font-size: large;
+    bottom: 0;
 }
 
 form{
